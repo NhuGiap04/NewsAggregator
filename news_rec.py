@@ -2,7 +2,8 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import requests
 
-uri = "mongodb+srv://NhuGiap:4C4KvNkypHWz02YY@cluster0.g7f8q5i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+# uri = "mongodb+srv://NhuGiap:4C4KvNkypHWz02YY@cluster0.g7f8q5i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://brandonmai:brandonmai@articlecluster.2d5svev.mongodb.net/?retryWrites=true&w=majority&appName=ArticleCluster"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
@@ -14,8 +15,10 @@ try:
 except Exception as e:
     print(e)
 
-db = client.Aggregator
-collection = db.Blockchain
+# db = client.Aggregator
+# collection = db.Blockchain
+db = client.sample_mflix
+collection = db.embedded_movies
 
 hf_token = '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'
 embedding_url = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
@@ -37,17 +40,17 @@ def generate_embedding(text: str) -> list[float]:
 #     doc['plot_embedding_hf'] = generate_embedding(doc['summary'])
 #     collection.replace_one({'_id': doc['_id']}, doc)
 
-query = "altcoin"
+query = "A cop and a child"
 
 results = collection.aggregate([
   {"$vectorSearch": {
     "queryVector": generate_embedding(query),
-    "path": "plot_embedding_hf",
+    "path": "plot_embedding",
     "numCandidates": 100,
     "limit": 4,
-    "index": "PlotSemanticSearch",
+    "index": "PlotVectorSearch",
       }}
 ])
 
 for document in results:
-    print(f'Article Name: {document["title"]},\nArticle Summary: {document["summary"]}\n')
+    print(f'Article Name: {document["title"]},\nArticle Summary: {document["plot"]}\n')

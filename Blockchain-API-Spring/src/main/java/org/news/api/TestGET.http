@@ -1,0 +1,7 @@
+GET http://localhost:8080/movies/semantic-search?plotDescription=A%20cop%20from%20china%20and%20cop%20from%20america%20save%20kidnapped%20girl
+Accept: application/json
+
+###
+
+GET http://localhost:8080/movies/semantic-search?plotDescription=A%20hotel%20owner
+Accept: application/json
