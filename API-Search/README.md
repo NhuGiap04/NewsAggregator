@@ -23,4 +23,4 @@ on the Internet lol git gut.
 
 Fatal error compiling invalid flag: --release? Most likely your Java environment
 variable points to JDK 1.8 or older. I can't find a way to make it work for JDK
-1.8 yet. Just install JDK 17 or older.
+1.8 yet. Just install JDK 17 or later.
