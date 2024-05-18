@@ -1,8 +1,0 @@
-POST http://localhost:5000/embedding-post
-Content-Type: application/json
-
-{
-      "text": "I am a sentence for which I would like to get its embedding."
-}
-
-###
