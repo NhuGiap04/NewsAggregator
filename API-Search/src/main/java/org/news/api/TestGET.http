@@ -1,0 +1,4 @@
+GET http://localhost:9696/api/semantic-search?description=Danger%20and%20dance
+Accept: application/json
+
+###

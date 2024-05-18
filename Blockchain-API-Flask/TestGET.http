@@ -1,4 +1,0 @@
-GET http://localhost:5000/embedding-get?text=A%20quick%20brown%20fox%20jumps%20over%20the%20lazy%20dog
-Accept: application/json
-
-###
