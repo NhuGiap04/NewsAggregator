@@ -33,3 +33,5 @@ python app.py
 python not found? Install Python and set environment variables. Also on some
 systems the command might be `python3` or `py` instead of `python`. Just run
 `python --version` and check with different commands.
+
+Whatever problem with HuggingFace? Run `save_model.py` and try again.
