@@ -7,8 +7,8 @@ import java.util.List;
 
 public class Article {
 
-    @BsonProperty("_id")
-    private ObjectId Id;
+//    @BsonProperty("_id")
+//    private ObjectId Id;
     private String link;
     private String type;
     private String title;
@@ -18,13 +18,13 @@ public class Article {
     private String author;
     private List<String> tagList;
 
-    public ObjectId getId() {
-        return Id;
-    }
-
-    public void setId(ObjectId id) {
-        Id = id;
-    }
+//    public ObjectId getId() {
+//        return Id;
+//    }
+//
+//    public void setId(ObjectId id) {
+//        Id = id;
+//    }
 
     public String getLink() {
         return link;
