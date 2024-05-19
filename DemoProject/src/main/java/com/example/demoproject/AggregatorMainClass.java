@@ -11,7 +11,7 @@ import java.io.IOException;
 public class AggregatorMainClass extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("main2.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
         Scene scene = new Scene(root, 1280, 780);
 
         stage.setTitle("Blockchain News Aggregator 1.0.0");
