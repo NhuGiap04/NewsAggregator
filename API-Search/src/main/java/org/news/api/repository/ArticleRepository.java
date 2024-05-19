@@ -42,7 +42,7 @@ public class ArticleRepository {
     public Flux<Article> findArticleByVector(List<Double> embedding) {
         String indexName = INDEX_NAME;
         int numCandidates = 100;
-        int limit = 10;
+        int limit = 20;
 
         List<Bson> pipeline = asList(
                 vectorSearch(
