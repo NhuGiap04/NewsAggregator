@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1280.0" style="-fx-background-color: #FDF6F7;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demoproject.Scene1Controller">
+   <children>
+      <ImageView fitHeight="259.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Scene1Banner.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="searchBar" layoutX="749.0" layoutY="53.0" prefHeight="38.0" prefWidth="332.0" promptText="Start by searching a keyword…" style="-fx-background-color: #FFFFFF;">
+         <font>
+            <Font name="Inter Regular" size="20.0" />
+         </font>
+      </TextField>
+      <HBox alignment="CENTER" layoutY="148.0" prefHeight="66.0" prefWidth="1280.0" spacing="55.0">
+         <children>
+            <Label stylesheets="@css/styles.css" text="Home">
+               <styleClass>
+                  <String fx:value="category-label" />
+                  <String fx:value="category-label-hover" />
+               </styleClass></Label>
+            <Label stylesheets="@css/styles.css" text="Recent">
+               <styleClass>
+                  <String fx:value="category-label" />
+                  <String fx:value="category-label-hover" />
+               </styleClass>
+            </Label>
+            <Label stylesheets="@css/styles.css" text="Trending">
+               <styleClass>
+                  <String fx:value="category-label" />
+                  <String fx:value="category-label-hover" />
+               </styleClass></Label>
+            <Label stylesheets="@css/styles.css" text="Statistics">
+               <styleClass>
+                  <String fx:value="category-label" />
+                  <String fx:value="category-label-hover" />
+               </styleClass></Label>
+            <Label stylesheets="@css/styles.css" text="User Guide">
+               <styleClass>
+                  <String fx:value="category-label" />
+                  <String fx:value="category-label-hover" />
+               </styleClass></Label>
+         </children>
+      </HBox>
+      <ScrollPane layoutY="215.0" prefHeight="602.0" prefWidth="1280.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2337.0" prefWidth="1264.0" style="-fx-background-color: #FDF6F7;">
+               <children>
+                  <ImageView fitHeight="238.0" fitWidth="431.0" layoutX="88.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+                     <image>
+                        <Image url="@images/28.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#fcfcfc" height="215.0" layoutX="547.0" layoutY="48.0" stroke="#ffffff00" strokeType="INSIDE" width="638.0" />
+                  <TextFlow layoutX="578.0" layoutY="73.0" prefHeight="170.0" prefWidth="595.0" textAlignment="JUSTIFY">
+                     <children>
+                        <Label prefHeight="43.0" prefWidth="601.0" styleClass="title-label" stylesheets="@css/styles.css" text="LEVERAGE YOUR BLOCKCHAIN EXPERIENCE" wrapText="true">
+                           <padding>
+                              <Insets right="10.0" />
+                           </padding>
+                        </Label>
+                        <Label lineSpacing="5.0" prefHeight="134.0" prefWidth="562.0" styleClass="content-label" stylesheets="@css/styles.css" text="Stay up-to-date with the latest news on the blockchain field. &#10;Search from thousands of articles with our powerful system.&#10;Follow the most recent trends with dynamic visualization.&#10;Browse with a personalized experience tailored just for you.&#10;" wrapText="true">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="-30.0" left="1.0" right="1.0" top="-5.0" />
+                     </padding>
+                  </TextFlow>
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#f7fbff" height="57.0" layoutX="88.0" layoutY="308.0" stroke="#ffffff00" strokeType="INSIDE" width="1097.0" />
+                  <TextFlow layoutX="126.0" layoutY="317.0" prefHeight="38.0" prefWidth="827.0" textAlignment="JUSTIFY">
+                     <children>
+                        <Label prefHeight="43.0" prefWidth="230.0" style="-fx-font-size: 20;" styleClass="title-label" stylesheets="@css/styles.css" text="RECENT ARTICLES" wrapText="true">
+                           <padding>
+                              <Insets bottom="10.0" right="10.0" />
+                           </padding>
+                        </Label>
+                        <Label lineSpacing="5.0" prefHeight="34.0" prefWidth="531.0" style="-fx-background-color: #f7fbff;" styleClass="content-label" stylesheets="@css/styles.css" text="Explore the newest updates in the world of blockchain" wrapText="true">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets top="12.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="-30.0" left="1.0" right="1.0" top="-5.0" />
+                     </padding>
+                  </TextFlow>
+                  <VBox fx:id="articlesLayout" alignment="CENTER" layoutX="29.0" layoutY="387.0" prefHeight="408.0" prefWidth="1216.0" spacing="15.0">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                  </VBox>
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#f7fbff" height="57.0" layoutX="89.0" layoutY="893.0" stroke="#ffffff00" strokeType="INSIDE" width="1097.0" />
+                  <TextFlow layoutX="127.0" layoutY="902.0" prefHeight="38.0" prefWidth="827.0" textAlignment="JUSTIFY">
+                     <children>
+                        <Label prefHeight="43.0" prefWidth="230.0" style="-fx-font-size: 20;" styleClass="title-label" stylesheets="@css/styles.css" text="TRENDING" wrapText="true">
+                           <padding>
+                              <Insets bottom="10.0" right="10.0" />
+                           </padding>
+                        </Label>
+                        <Label lineSpacing="5.0" prefHeight="34.0" prefWidth="531.0" style="-fx-background-color: #f7fbff;" styleClass="content-label" stylesheets="@css/styles.css" text="Most popular topics in the world of blockchain recently" wrapText="true">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets top="12.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="-30.0" left="1.0" right="1.0" top="-5.0" />
+                     </padding>
+                  </TextFlow>
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="503.0" layoutX="89.0" layoutY="977.0" stroke="#ffffff00" strokeType="INSIDE" width="1097.0" />
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#f7fbff" height="57.0" layoutX="89.0" layoutY="1523.0" stroke="#ffffff00" strokeType="INSIDE" width="1097.0" />
+                  <TextFlow layoutX="127.0" layoutY="1532.0" prefHeight="38.0" prefWidth="827.0" textAlignment="JUSTIFY">
+                     <children>
+                        <Label prefHeight="43.0" prefWidth="230.0" style="-fx-font-size: 20;" styleClass="title-label" stylesheets="@css/styles.css" text="STATISTICS" wrapText="true">
+                           <padding>
+                              <Insets bottom="10.0" right="10.0" />
+                           </padding>
+                        </Label>
+                        <Label lineSpacing="5.0" prefHeight="34.0" prefWidth="531.0" style="-fx-background-color: #f7fbff;" styleClass="content-label" stylesheets="@css/styles.css" text="Visualized data sources, attributes, and more!" wrapText="true">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets top="12.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="-30.0" left="1.0" right="1.0" top="-5.0" />
+                     </padding>
+                  </TextFlow>
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="503.0" layoutX="89.0" layoutY="1607.0" stroke="#ffffff00" strokeType="INSIDE" width="1097.0" />
+                  <ImageView fitHeight="317.0" fitWidth="1280.0" layoutY="2151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Scene1Footer.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="430.0" fitWidth="1000.0" layoutX="137.0" layoutY="1012.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Scene1Trending.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="430.0" fitWidth="1000.0" layoutX="127.0" layoutY="1642.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Scene1Statistics.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button fx:id="toHomePage" layoutX="22.0" layoutY="15.0" mnemonicParsing="false" onAction="#toHomePage" opacity="0.0" prefHeight="117.0" prefWidth="78.0" style="-fx-cursor: hand;" />
+      <Button fx:id="settings" layoutX="1198.0" layoutY="43.0" mnemonicParsing="false" onAction="#openSettings" opacity="0.0" prefHeight="62.0" prefWidth="59.0" style="-fx-cursor: hand;" />
+      <Button fx:id="search" layoutX="1112.0" layoutY="43.0" mnemonicParsing="false" onAction="#search" opacity="0.0" prefHeight="59.0" prefWidth="50.0" style="-fx-cursor: hand;" />
+      <Button fx:id="userGuide" layoutX="1039.0" layoutY="155.0" mnemonicParsing="false" onAction="#openManual" opacity="0.0" prefHeight="51.0" prefWidth="144.0" style="-fx-cursor: hand;" />
+      <AnchorPane fx:id="coverPane" layoutX="-4.0" layoutY="-1.0" opacity="0.5" prefHeight="780.0" prefWidth="1287.0" style="-fx-background-color: #FFFFFF;" visible="false" />
+      <AnchorPane fx:id="settingsMenu" layoutX="916.0" layoutY="149.0" prefHeight="275.0" prefWidth="346.0" visible="false">
+         <children>
+            <ImageView fitHeight="284.0" fitWidth="348.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Settings.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="openBookmark" layoutX="14.0" layoutY="62.0" mnemonicParsing="false" onAction="#toBookmarkPage" opacity="0.0" prefHeight="51.0" prefWidth="320.0" style="-fx-cursor: hand;" />
+            <Button fx:id="openHistory" layoutX="14.0" layoutY="116.0" mnemonicParsing="false" onAction="#toHistoryPage" opacity="0.0" prefHeight="51.0" prefWidth="320.0" style="-fx-cursor: hand;" />
+            <Button fx:id="openManual" layoutX="14.0" layoutY="169.0" mnemonicParsing="false" onAction="#openManual" opacity="0.0" prefHeight="51.0" prefWidth="320.0" style="-fx-cursor: hand;" />
+            <Button fx:id="closeSettings" layoutX="14.0" layoutY="229.0" mnemonicParsing="false" onAction="#closeSettings" opacity="0.0" prefHeight="51.0" prefWidth="320.0" style="-fx-cursor: hand;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
