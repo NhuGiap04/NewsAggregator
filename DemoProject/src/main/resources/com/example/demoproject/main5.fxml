@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1280.0" style="-fx-background-color: #FCF1F2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demoproject.Scene5Controller">
+   <children>
+      <ImageView fitHeight="780.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Scene5Design.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="returnButton" layoutX="107.0" layoutY="9.0" mnemonicParsing="false" onAction="#onClickBack" opacity="0.0" prefHeight="46.0" prefWidth="50.0" style="-fx-cursor: hand;" />
+      <Button fx:id="homeButton" layoutX="29.0" layoutY="8.0" mnemonicParsing="false" onAction="#toHomePage" opacity="0.0" prefHeight="46.0" prefWidth="50.0" style="-fx-cursor: hand;" />
+      <Button fx:id="homeButton1" layoutX="1196.0" layoutY="6.0" mnemonicParsing="false" onAction="#toHomePage" opacity="0.0" prefHeight="46.0" prefWidth="50.0" style="-fx-cursor: hand;" />
+      <ScrollPane layoutY="173.0" prefHeight="607.0" prefWidth="1280.0" style="-fx-background-color: #FAEAEC;">
+         <content>
+            <VBox fx:id="cardLayout" alignment="TOP_CENTER" prefHeight="610.0" prefWidth="1264.0" spacing="20.0" style="-fx-background-color: #FDF6F7;" stylesheets="@css/styles.css">
+               <padding>
+                  <Insets bottom="20.0" top="20.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <AnchorPane fx:id="coverPane" opacity="0.5" prefHeight="780.0" prefWidth="1280.0" style="-fx-background-color: #FFFFFF;" visible="false" />
+      <AnchorPane fx:id="settingsMenu" layoutX="915.0" layoutY="76.0" prefHeight="275.0" prefWidth="346.0" visible="false">
+         <children>
+            <ImageView fitHeight="284.0" fitWidth="348.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Settings.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="openBookmark" layoutX="14.0" layoutY="62.0" mnemonicParsing="false" onAction="#toBookmarkPage" opacity="0.0" prefHeight="51.0" prefWidth="320.0" style="-fx-cursor: hand;" />
+            <Button fx:id="openHistory" layoutX="14.0" layoutY="116.0" mnemonicParsing="false" onAction="#toHistoryPage" opacity="0.0" prefHeight="51.0" prefWidth="320.0" style="-fx-cursor: hand;" />
+            <Button fx:id="openManual" layoutX="14.0" layoutY="169.0" mnemonicParsing="false" onAction="#openManual" opacity="0.0" prefHeight="51.0" prefWidth="320.0" style="-fx-cursor: hand;" />
+            <Button fx:id="closeSettings" layoutX="14.0" layoutY="229.0" mnemonicParsing="false" onAction="#closeSettings" opacity="0.0" prefHeight="51.0" prefWidth="320.0" style="-fx-cursor: hand;" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="settings" layoutX="1191.0" layoutY="4.0" mnemonicParsing="false" onAction="#openSettings" opacity="0.0" prefHeight="51.0" prefWidth="60.0" style="-fx-cursor: hand;" />
+   </children>
+</AnchorPane>

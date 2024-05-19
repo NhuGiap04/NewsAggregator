@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../Inter-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../Inter-Bold.ttf');
+}
+
+.red-background{
+    -fx-background-color: #FDF6F7;
+}
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.8), 4, 0, 0, 0);
+}
+
+.title-label{
+    -fx-font-family: "Inter-Bold";
+    -fx-font-weight: bold;
+    -fx-text-fill: #545454;
+    -fx-font-size: 26;
+}
+
+.title-article-label{
+    -fx-font-family: "Inter-Bold";
+    -fx-font-weight: bold;
+    -fx-text-fill: #545454;
+    -fx-font-size: 21;
+}
+
+.content-label{
+    -fx-font-family: "Inter";
+    -fx-text-fill: #505050;
+    -fx-font-size: 18;
+    -fx-line-spacing: 5;
+}
+
+.content-article-label{
+    -fx-font-family: "Inter";
+    -fx-text-fill: #545454;
+    -fx-font-size: 16;
+}
+
+.category-label{
+    -fx-font-family: "Inter-Bold";
+    -fx-font-weight: bold;
+    -fx-text-fill: #505050;
+    -fx-font-size: 25;
+    -fx-pref-width: 180;
+    -fx-alignment: center;
+}
+
+.category-label-hover: hover {
+    -fx-cursor: hand;
+    -fx-underline: true;
+
+}
+
+.filter-button{
+    -fx-background-color: #FAEAEC;
+    -fx-border-width: 2.25;
+    -fx-border-color: #D84A58;
+    -fx-border-radius: 5;
+    -fx-font-family: "Inter-Bold";
+    -fx-font-weight: bold;
+    -fx-text-fill: #505050;
+    -fx-font-size: 18;
+    -fx-pref-width: 200;
+    -fx-padding: 3 0 3 0;
+}
+
+.filter-button-hover: hover{
+    -fx-background-color: #F6D6DA;
+    -fx-cursor: hand;
+}
+
+.filter-button-selected{
+    -fx-background-color: #E27782;
+    -fx-border-width: 2.25;
+    -fx-border-color: #D84A58;
+    -fx-border-radius: 5;
+    -fx-font-family: "Inter-Bold";
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 18;
+    -fx-pref-width: 200;
+    -fx-padding: 3 0 3 0;
+}
+
+.read-button{
+    -fx-background-color: #FAEAEC;
+    -fx-border-width: 2;
+    -fx-border-color: #D84A58;
+    -fx-border-radius: 5;
+    -fx-font-family: "Inter-Bold";
+    -fx-font-weight: bold;
+    -fx-text-fill: #505050;
+    -fx-font-size: 17;
+    -fx-pref-width: 170;
+    -fx-padding: 3 0 3 0;
+}
+
+.read-button-hover: hover{
+    -fx-background-color: #F6D6DA;
+    -fx-cursor: hand;
+}
