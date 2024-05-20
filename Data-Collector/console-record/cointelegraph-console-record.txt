@@ -1,0 +1,270 @@
+C:\Users\Admin\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Users\Admin\AppData\Local\Programs\IntelliJ IDEA Ultimate\lib\idea_rt.jar=64487:C:\Users\Admin\AppData\Local\Programs\IntelliJ IDEA Ultimate\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "D:\Viet Bao 2023\Code\Blockchain-My-Ass\target\classes;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.19.1\selenium-chrome-driver-4.19.1.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.19.1\selenium-api-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.19.1\selenium-chromium-driver-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.19.1\selenium-json-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.19.1\selenium-manager-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.19.1\selenium-os-4.19.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.19.1\selenium-remote-driver-4.19.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.36.0\opentelemetry-api-1.36.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.36.0\opentelemetry-context-1.36.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.36.0\opentelemetry-exporter-logging-1.36.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.36.0\opentelemetry-sdk-common-1.36.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.36.0\opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.36.0\opentelemetry-sdk-extension-autoconfigure-1.36.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.36.0-alpha\opentelemetry-api-events-1.36.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.36.0\opentelemetry-sdk-trace-1.36.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.36.0-alpha\opentelemetry-extension-incubator-1.36.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.36.0\opentelemetry-sdk-1.36.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.36.0\opentelemetry-sdk-metrics-1.36.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.36.0\opentelemetry-sdk-logs-1.36.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.19.1\selenium-http-4.19.1.jar;C:\Users\Admin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Admin\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.2.5\maven-surefire-plugin-3.2.5.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.2.5\maven-surefire-common-3.2.5.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.5\surefire-api-3.2.5.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.5\surefire-logger-api-3.2.5.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.2.5\surefire-extensions-api-3.2.5.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.5\surefire-booter-3.2.5.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.5\surefire-extensions-spi-3.2.5.jar;C:\Users\Admin\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\Admin\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\Admin\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\Admin\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\Admin\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\Admin\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\Admin\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\Admin\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\Admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Admin\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\Admin\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\Admin\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Admin\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Admin\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.5\surefire-shared-utils-3.2.5.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.19.1\selenium-devtools-v121-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.19.1\selenium-devtools-v122-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.19.1\selenium-devtools-v123-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.19.1\selenium-devtools-v85-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.19.1\selenium-edge-driver-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.19.1\selenium-firefox-driver-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.19.1\selenium-ie-driver-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.19.1\selenium-safari-driver-4.19.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.19.1\selenium-support-4.19.1.jar;C:\Users\Admin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Admin\.m2\repository\com\twitter\twitter-api-java-sdk\2.0.3\twitter-api-java-sdk-2.0.3.jar;C:\Users\Admin\.m2\repository\io\swagger\swagger-annotations\1.6.5\swagger-annotations-1.6.5.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\4.9.3\okhttp-4.9.3.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\2.8.0\okio-2.8.0.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.0\kotlin-stdlib-common-1.4.0.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.10\kotlin-stdlib-1.4.10.jar;C:\Users\Admin\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\logging-interceptor\4.9.3\logging-interceptor-4.9.3.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.10\kotlin-stdlib-jdk8-1.4.10.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.10\kotlin-stdlib-jdk7-1.4.10.jar;C:\Users\Admin\.m2\repository\io\gsonfire\gson-fire\1.8.5\gson-fire-1.8.5.jar;C:\Users\Admin\.m2\repository\org\apache\oltu\oauth2\org.apache.oltu.oauth2.client\1.0.1\org.apache.oltu.oauth2.client-1.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\oltu\oauth2\org.apache.oltu.oauth2.common\1.0.1\org.apache.oltu.oauth2.common-1.0.1.jar;C:\Users\Admin\.m2\repository\org\json\json\20140107\json-20140107.jar;C:\Users\Admin\.m2\repository\org\openapitools\jackson-databind-nullable\0.2.2\jackson-databind-nullable-0.2.2.jar;C:\Users\Admin\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\Admin\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1.1\javax.ws.rs-api-2.1.1.jar;C:\Users\Admin\.m2\repository\com\twitter\joauth\6.0.3\joauth-6.0.3.jar;C:\Users\Admin\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\Admin\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\Admin\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\Admin\.m2\repository\io\github\redouane59\twitter\twittered\2.23\twittered-2.23.jar;C:\Users\Admin\.m2\repository\org\codehaus\sonar\sonar-packaging-maven-plugin\1.13\sonar-packaging-maven-plugin-1.13.jar;C:\Users\Admin\.m2\repository\org\codehaus\sonar\sonar-update-center-common\1.13\sonar-update-center-common-1.13.jar;C:\Users\Admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-archiver\2.5\maven-archiver-2.5.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-model\2.0.6\maven-model-2.0.6.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-archiver\2.1\plexus-archiver-2.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\Admin\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Admin\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-io\2.0.2\plexus-io-2.0.2.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-utils\3.0\plexus-utils-3.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.15\plexus-interpolation-1.15.jar;C:\Users\Admin\.m2\repository\org\apache\maven\shared\maven-dependency-tree\2.1\maven-dependency-tree-2.1.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-project\2.2.0\maven-project-2.2.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-profile\2.2.0\maven-profile-2.2.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.0\maven-artifact-manager-2.2.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\Admin\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.0\maven-plugin-registry-2.2.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.13.2\jackson-dataformat-yaml-2.13.2.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar" web.main.Main
+Cointelegraph crawler no.1 initialized. Thread started upon initialization.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+May 05, 2024 6:08:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
+Cointelegraph article link crawler dismissed.
+Cointelegraph scraper no.1 initialized. Thread started upon initialization.
+Cointelegraph scraper no.2 initialized. Thread started upon initialization.
+Cointelegraph scraper no.3 initialized. Thread started upon initialization.
+Cointelegraph scraper no.4 initialized. Thread started upon initialization.
+May 05, 2024 8:02:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
+May 05, 2024 8:02:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
+May 05, 2024 8:02:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
+May 05, 2024 8:02:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-mitigate-the-security-risks-associated-with-crypto-payments
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-cedefi-and-why-does-it-matter
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-ethereum-arrow-glacier-upgrade
+Unable to recognize structure of https://cointelegraph.com/explained/how-initial-bounty-offering-can-help-the-unbanked-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-role-of-a-decentralized-autonomous-organization-in-web3
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-metadata-in-blockchain-transactions
+Unable to recognize structure of https://cointelegraph.com/explained/mapping-on-the-blockchain-explained
+Unable to recognize structure of https://cointelegraph.com/news/more-game-less-fi-ushering-in-a-new-era-of-web3-gaming
+Unable to recognize structure of https://cointelegraph.com/explained/the-differences-in-trading-in-a-bullish-and-bearish-market-explained
+Unable to recognize structure of https://cointelegraph.com/explained/metaverse-for-education-how-virtual-reality-can-help-schools-and-colleges
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-a-coinbase-transaction
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-make-defi-easier-for-newcomers-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-web3-games-how-do-they-work
+Unable to recognize structure of https://cointelegraph.com/explained/how-banking-institutions-can-be-decentralized-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-a-block-reward-explained
+Unable to recognize structure of https://cointelegraph.com/explained/crypto-is-going-mainstream-heres-how-the-future-founders-will-build-on-it
+Unable to recognize structure of https://cointelegraph.com/explained/polygon-supernets-vs-avalanche-subnets-key-differences
+Unable to recognize structure of https://cointelegraph.com/explained/zero-knowledge-proofs-explained
+Unable to recognize structure of https://cointelegraph.com/explained/exchange-coins-utility-explained
+Unable to recognize structure of https://cointelegraph.com/explained/the-challenges-with-designing-a-cbdc-explained
+Unable to recognize structure of https://cointelegraph.com/explained/quantum-vs-cloud-computing-key-differences
+Unable to recognize structure of https://cointelegraph.com/explained/turing-completeness-in-blockchain-explained
+Unable to recognize structure of https://cointelegraph.com/explained/experts-share-what-are-the-biggest-topics-to-follow-in-2020-beside-crypto
+Unable to recognize structure of https://cointelegraph.com/explained/transaction-fees-explained
+Unable to recognize structure of https://cointelegraph.com/explained/fighting-money-laundering-in-crypto-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-worldcoin-and-how-does-it-help-preserve-world-id
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-create-an-environmentally-friendly-coin-explained
+Unable to recognize structure of https://cointelegraph.com/news/pioneering-the-future-of-web3-with-quicknode-and-polygon-labs
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-rebase-tokens-and-how-do-they-work
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-an-sto-explained
+Unable to recognize structure of https://cointelegraph.com/explained/the-blockchain-trilemma-can-it-ever-be-tackled
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-decentralized-social-networks
+Unable to recognize structure of https://cointelegraph.com/explained/the-erc-6551-token-standard-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-do-blockchain-forensics-and-asset-tracking-work
+Unable to recognize structure of https://cointelegraph.com/explained/prediction-markets-explained
+Unable to recognize structure of https://cointelegraph.com/explained/blockchain-interoperability-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-crypto-companies-can-go-public-in-2021-explained
+Unable to recognize structure of https://cointelegraph.com/explained/sharding-explained
+Unable to recognize structure of https://cointelegraph.com/explained/whats-ahead-for-crypto-and-blockchain-in-2022-experts-answer-part-1
+Unable to recognize structure of https://cointelegraph.com/explained/whats-ahead-for-crypto-and-blockchain-in-2022-experts-answer-part-2
+Unable to recognize structure of https://cointelegraph.com/explained/whats-ahead-for-crypto-and-blockchain-in-2022-experts-answer-part-3
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-the-risks-of-the-ethereum-merge
+Unable to recognize structure of https://cointelegraph.com/explained/decentralized-file-sharing-explained
+Unable to recognize structure of https://cointelegraph.com/explained/margin-trading-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-smart-contract-wallets
+Unable to recognize structure of https://cointelegraph.com/explained/why-hardware-wallets-might-not-offer-as-much-protection-as-you-think-explained
+Unable to recognize structure of https://cointelegraph.com/explained/crypto-mainstream-adoption-is-it-here-already-experts-answer-part-1
+Unable to recognize structure of https://cointelegraph.com/explained/crypto-mainstream-adoption-is-it-here-already-experts-answer-part-2
+Unable to recognize structure of https://cointelegraph.com/explained/crypto-mainstream-adoption-is-it-here-already-experts-answer-part-3
+Unable to recognize structure of https://cointelegraph.com/explained/7-blockchain-project-ideas-for-women
+Unable to recognize structure of https://cointelegraph.com/explained/is-web3-like-playing-minecraft
+Unable to recognize structure of https://cointelegraph.com/explained/the-biggest-rises-and-falls-of-bitcoin-explained
+Unable to recognize structure of https://cointelegraph.com/explained/crypto-token-supplies-explained-circulating-maximum-and-total-supply
+Unable to recognize structure of https://cointelegraph.com/explained/why-is-my-bitcoin-transaction-unconfirmed
+Unable to recognize structure of https://cointelegraph.com/explained/how-will-blockchain-technology-help-fight-climate-change-experts-answer
+Unable to recognize structure of https://cointelegraph.com/explained/how-the-metaverse-could-impact-the-lives-of-kids
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-interledger-protocol-and-how-does-it-work
+Unable to recognize structure of https://cointelegraph.com/news/esports-evolution-is-on-the-way-with-moxy
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-make-hodling-worthwhile-explained
+Unable to recognize structure of https://cointelegraph.com/explained/ethical-considerations-in-ai-development-and-deployment
+Unable to recognize structure of https://cointelegraph.com/explained/the-sharing-economy-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-blockchain-technology-revolutionizes-digital-ownership
+Unable to recognize structure of https://cointelegraph.com/explained/scaling-dapp-in-2022-explained
+Unable to recognize structure of https://cointelegraph.com/explained/leased-proof-of-stake-lpos-explained
+Unable to recognize structure of https://cointelegraph.com/explained/why-web-estate-investors-are-going-crazy-over-virtual-lands
+Unable to recognize structure of https://cointelegraph.com/explained/segwit-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-augmented-reality-and-why-is-it-important-for-the-metaverse
+Unable to recognize structure of https://cointelegraph.com/explained/how-web3-resolves-fundamental-problems-in-web2
+Unable to recognize structure of https://cointelegraph.com/explained/fraudulent-transactions-in-crypto-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-cryptonight-mining-algorithm-and-how-does-it-work
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-stealth-addresses-and-how-do-they-work
+Unable to recognize structure of https://cointelegraph.com/explained/known-plaintext-attacks-explained
+Unable to recognize structure of https://cointelegraph.com/explained/why-a-securities-specific-blockchain-is-needed-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-a-mainnet-in-cryptocurrency-explained
+Unable to recognize structure of https://cointelegraph.com/explained/crypto-wallets-security-explained
+Unable to recognize structure of https://cointelegraph.com/news/omnichain-simplified-how-to-connect-data-and-assets-on-blockchain
+Unable to recognize structure of https://cointelegraph.com/explained/experts-share-what-will-bitcoins-price-look-like-in-2020
+Unable to recognize structure of https://cointelegraph.com/news/discover-who-made-the-cointelegraphs-crypto-and-blockchain-top-100-in-2022
+Unable to recognize structure of https://cointelegraph.com/explained/obscure-problems-crypto-users-can-face-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-should-the-crypto-industry-expect-from-regulators-in-2022-experts-answer-part-1
+Unable to recognize structure of https://cointelegraph.com/explained/what-should-the-crypto-industry-expect-from-regulators-in-2022-experts-answer-part-2
+Unable to recognize structure of https://cointelegraph.com/explained/who-accepts-ethereum-as-payment
+Unable to recognize structure of https://cointelegraph.com/explained/can-metaverse-technology-enhance-human-ai-efficiency
+Unable to recognize structure of https://cointelegraph.com/explained/from-cash-to-crypto-the-cantillon-effect-vs-the-nakamoto-effect
+Unable to recognize structure of https://cointelegraph.com/explained/understanding-staking-pools-the-pros-and-cons-of-staking-cryptocurrency
+Unable to recognize structure of https://cointelegraph.com/explained/why-the-service-industry-needs-blockchain-explained
+Unable to recognize structure of https://cointelegraph.com/explained/private-public-and-consortium-blockchains-the-differences-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-cross-border-payments-and-how-do-they-work
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-hierarchical-deterministic-hd-crypto-wallets
+Unable to recognize structure of https://cointelegraph.com/explained/staking-on-polkadot-explained
+Unable to recognize structure of https://cointelegraph.com/explained/ethereum-shanghai-upgrade-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-bitcoin-ordinals
+Unable to recognize structure of https://cointelegraph.com/explained/experts-share-what-are-the-biggest-crypto-and-blockchain-topics-to-follow-in-2020
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-genesis-block-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-quantum-cloud-computing-and-how-does-it-work
+Unable to recognize structure of https://cointelegraph.com/news/camino-network-hub
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-worst-nightmare-that-could-happen-to-crypto-experts-answer
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-decentralized-identity-in-blockchain
+Unable to recognize structure of https://cointelegraph.com/explained/is-gpu-mining-profitable-after-the-ethereum-merge
+Unable to recognize structure of https://cointelegraph.com/explained/how-blockchain-empowers-women-in-developing-economies
+Unable to recognize structure of https://cointelegraph.com/explained/secure-encryption-key-management-modules-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-crypto-incentives-work-explained
+Unable to recognize structure of https://cointelegraph.com/explained/crypto-wallets-explained
+Unable to recognize structure of https://cointelegraph.com/explained/stablecoins-explained
+Unable to recognize structure of https://cointelegraph.com/explained/programming-languages-used-in-blockchain-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-moores-law-and-how-does-it-impact-cryptography
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-decentralize-travel-monopolies-explained
+Unable to recognize structure of https://cointelegraph.com/explained/long-and-short-positions-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-chain-reorganization-in-blockchain-technology
+Unable to recognize structure of https://cointelegraph.com/explained/how-do-crypto-monitoring-and-blockchain-analysis-help-avoid-cryptocurrency-fraud
+Unable to recognize structure of https://cointelegraph.com/explained/buyback-and-burn-what-does-it-mean-in-crypto
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-a-crypto-dusting-attack-and-how-do-you-avoid-it
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-lindy-effect-and-how-does-it-apply-to-blockchain
+Unable to recognize structure of https://cointelegraph.com/explained/can-blockchain-be-used-without-cryptocurrency
+Unable to recognize structure of https://cointelegraph.com/press-releases/mesh-networking-ai-and-blockchain-combine-to-enable-global-digital-inclusion
+Unable to recognize structure of https://cointelegraph.com/explained/vertical-and-horizontal-blockchain-scaling-explained
+Unable to recognize structure of https://cointelegraph.com/explained/blockchain-and-ai-bond-explained
+Unable to recognize structure of https://cointelegraph.com/explained/no-code-blockchain-development
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-cc0-nfts-and-why-are-they-important
+Unable to recognize structure of https://cointelegraph.com/explained/why-review-sites-need-blockchain-explained
+Unable to recognize structure of https://cointelegraph.com/explained/decentralized-finance-explained
+Unable to recognize structure of https://cointelegraph.com/explained/blockchain-s-impact-on-food-and-farming-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-an-eclipse-attack
+Unable to recognize structure of https://cointelegraph.com/explained/innovation-marketplaces-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-shibarium-and-what-does-it-mean-for-shiba-inu
+Unable to recognize structure of https://cointelegraph.com/explained/what-were-the-biggest-crypto-outcomes-of-2021-experts-answer-part-2
+Unable to recognize structure of https://cointelegraph.com/explained/what-were-the-biggest-crypto-outcomes-of-2021-experts-answer-part-1
+Unable to recognize structure of https://cointelegraph.com/explained/how-blockchain-technology-can-pave-the-way-to-a-new-future-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-use-smart-contracts-for-revenue-sharing-explained
+Unable to recognize structure of https://cointelegraph.com/explained/block-size-and-scalability-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-a-nonce-in-blockchain-explained
+Unable to recognize structure of https://cointelegraph.com/explained/experts-share-which-altcoins-should-be-watched-closely-in-2020
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-blockchain-rollups
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-artificial-intelligence-ai-crypto-coins-and-how-do-they-work
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-bitcoin-hash-rate-and-why-does-it-matter
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-liquid-staking-and-how-does-it-work
+Unable to recognize structure of https://cointelegraph.com/explained/play-to-earn-vs-move-to-earn-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-quickswap-and-how-does-it-work
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-sniper-bots-and-how-to-stop-token-sniping-exploits
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-a-seed-phrase-and-why-is-it-important
+Unable to recognize structure of https://cointelegraph.com/explained/explained-blockchain-collectible-games
+Unable to recognize structure of https://cointelegraph.com/explained/blockchain-innovations-in-the-energy-sector-explained
+Unable to recognize structure of https://cointelegraph.com/explained/bitcoin-block-size-explained
+Unable to recognize structure of https://cointelegraph.com/explained/advertising-on-social-media-explained
+Unable to recognize structure of https://cointelegraph.com/explained/crypto-rug-pulls-what-is-a-rug-pull-in-crypto-and-6-ways-to-spot-it
+Unable to recognize structure of https://cointelegraph.com/explained/non-fungible-tokens-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-relationship-between-blockchain-and-web3
+Unable to recognize structure of https://cointelegraph.com/explained/centralized-vs-decentralized-digital-networks-key-differences
+Unable to recognize structure of https://cointelegraph.com/explained/zk-starks-vs-zk-snarks-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-web-30-apps-must-adapt-to-become-next-gen-of-tech-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-importance-of-blockchain-in-the-regtech-ecosystem
+Unable to recognize structure of https://cointelegraph.com/explained/can-the-government-track-bitcoin
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-an-atomic-swap-and-how-does-it-work
+Unable to recognize structure of https://cointelegraph.com/explained/how-blockchain-can-help-you-earn-on-your-data-explained
+Unable to recognize structure of https://cointelegraph.com/news/your-essential-guide-for-all-things-gamefi-news-insights-trends-and-beyond
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-a-vampire-attack-in-crypto
+Unable to recognize structure of https://cointelegraph.com/explained/how-blockchain-improves-daily-health-care-routine-explained
+Unable to recognize structure of https://cointelegraph.com/explained/can-cryptocurrencies-be-frozen-on-a-blockchain
+Unable to recognize structure of https://cointelegraph.com/explained/how-blockchain-is-revolutionizing-the-gaming-industry
+Unable to recognize structure of https://cointelegraph.com/explained/are-bitcoin-transactions-anonymous-and-traceable
+Unable to recognize structure of https://cointelegraph.com/explained/income-generation-on-defi-explained
+Unable to recognize structure of https://cointelegraph.com/explained/downsides-of-proof-of-work-and-proof-of-stake-explained
+Unable to recognize structure of https://cointelegraph.com/explained/why-ethereum-needs-better-compatibility-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-will-blockchain-and-crypto-improve-the-lives-of-lgbtq-people-experts-answer
+Unable to recognize structure of https://cointelegraph.com/explained/an-overview-of-fake-product-detection-using-blockchain-technology
+Unable to recognize structure of https://cointelegraph.com/explained/how-supply-affects-cryptos-value-explained
+Unable to recognize structure of https://cointelegraph.com/explained/inter-blockchain-communication-ibc-protocol-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-open-source-protocols-and-how-do-they-work
+Unable to recognize structure of https://cointelegraph.com/explained/how-a-dao-for-a-bank-or-financial-institution-will-look-like
+Unable to recognize structure of https://cointelegraph.com/explained/how-blockchain-technology-is-used-in-supply-chain-management
+Unable to recognize structure of https://cointelegraph.com/explained/how-blockchain-transforms-christmas-giving
+Unable to recognize structure of https://cointelegraph.com/explained/staking-on-ethereum-20-explained
+Unable to recognize structure of https://cointelegraph.com/explained/bitcoin-miners-as-energy-buyers-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-be-a-better-hodler-explained
+Unable to recognize structure of https://cointelegraph.com/explained/experts-answer-how-does-elon-musk-affect-crypto-space
+Unable to recognize structure of https://cointelegraph.com/explained/order-types-explained
+Unable to recognize structure of https://cointelegraph.com/explained/the-life-cycle-of-smart-contracts-in-the-blockchain-ecosystem
+Unable to recognize structure of https://cointelegraph.com/explained/strategies-for-trading-cryptocurrency-during-a-correction-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-the-crypto-world-is-preparing-for-quantum-computing-explained
+Unable to recognize structure of https://cointelegraph.com/explained/copyright-on-blockchain-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-finality-in-blockchain-and-why-does-it-matter
+Unable to recognize structure of https://cointelegraph.com/explained/offline-staking-explained
+Unable to recognize structure of https://cointelegraph.com/explained/high-frequency-trading-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-convolutional-neural-networks
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-blockchain-network-congestion
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-a-blockchain-validator
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-eliminate-fomo-and-stick-to-a-cryptocurrency-trading-strategy
+Unable to recognize structure of https://cointelegraph.com/explained/the-challenges-of-eth2-staking-explained
+Unable to recognize structure of https://cointelegraph.com/explained/blockchains-scaling-problem-explained
+Unable to recognize structure of https://cointelegraph.com/explained/dividend-tokens-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-a-directed-acyclic-graph-in-cryptocurrency-how-does-dag-work
+Unable to recognize structure of https://cointelegraph.com/quiz/think-you-know-the-crypto-basics-take-our-quiz-to-find-out
+Unable to recognize structure of https://cointelegraph.com/explained/why-contests-are-better-than-grants-for-a-healthy-crypto-community
+Unable to recognize structure of https://cointelegraph.com/explained/which-blockchain-is-the-most-decentralized-experts-answer
+Unable to recognize structure of https://cointelegraph.com/explained/can-you-earn-passive-income-running-a-lightning-node
+Unable to recognize structure of https://cointelegraph.com/explained/how-are-cryptocurrency-taxes-reported
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-the-graph-and-how-does-it-work
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-humanode-human-powered-blockchain
+Unable to recognize structure of https://cointelegraph.com/explained/dangers-of-hosting-your-own-eth2-node-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-censorship-resistance-in-blockchain-technology
+Unable to recognize structure of https://cointelegraph.com/explained/from-defi-year-to-decade-is-mass-adoption-here-experts-answer-part-3
+Unable to recognize structure of https://cointelegraph.com/explained/from-defi-year-to-decade-is-mass-adoption-here-experts-answer-part-2
+Unable to recognize structure of https://cointelegraph.com/explained/from-defi-year-to-decade-is-mass-adoption-here-experts-answer-part-1
+Unable to recognize structure of https://cointelegraph.com/explained/an-overview-of-peer-to-peer-ridesharing-using-blockchain
+Unable to recognize structure of https://cointelegraph.com/explained/the-evolution-of-blockchain-transactions-contracts-and-applications
+Unable to recognize structure of https://cointelegraph.com/explained/an-overview-of-the-blockchain-development-lifecycle
+Unable to recognize structure of https://cointelegraph.com/explained/defi-oracles-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-predict-crypto-price-trends-explained
+Unable to recognize structure of https://cointelegraph.com/explained/uniswap-and-automated-market-makers-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-stablecoins-stay-stable-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-harmony-one-blockchain-and-why-it-is-getting-so-much-traction
+Unable to recognize structure of https://cointelegraph.com/explained/blockchain-in-charity-explained
+Unable to recognize structure of https://cointelegraph.com/explained/why-cross-chain-interoperability-matters-for-defi
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-store-crypto-in-2022-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-perpetual-futures-contracts-in-cryptocurrency
+Unable to recognize structure of https://cointelegraph.com/explained/can-the-metaverse-exist-without-blockchain
+Unable to recognize structure of https://cointelegraph.com/explained/tracking-bitcoin-transactions-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-crypto-whale-trackers-and-how-do-they-work
+Unable to recognize structure of https://cointelegraph.com/explained/defi-liquidity-pools-explained
+Unable to recognize structure of https://cointelegraph.com/explained/blockchain-in-trademark-and-brand-protection-explained
+Unable to recognize structure of https://cointelegraph.com/explained/proof-of-work-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-banks-can-identify-money-laundering-involving-crypto-explained
+Unable to recognize structure of https://cointelegraph.com/explained/blockchain-bridges-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-distributed-systems-and-how-do-they-work
+Unable to recognize structure of https://cointelegraph.com/explained/derivatives-in-crypto-explained
+Unable to recognize structure of https://cointelegraph.com/explained/how-to-stake-cryptocurrencies-in-2022-explained
+Scraper no.1 scanned 4010 articles, unrecognized 67 articles. Dismissed.
+Unable to recognize structure of https://cointelegraph.com/explained/history-of-money-from-fiat-to-crypto-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-is-metcalfes-law-and-why-does-it-matter
+Unable to recognize structure of https://cointelegraph.com/explained/why-bandwidth-needs-a-layer-1-blockchain-explained
+Unable to recognize structure of https://cointelegraph.com/explained/will-regulation-adapt-to-crypto-or-crypto-to-regulation-experts-answer
+Scraper no.2 scanned 4012 articles, unrecognized 65 articles. Dismissed.
+Scraper no.3 scanned 4024 articles, unrecognized 53 articles. Dismissed.
+Unable to recognize structure of https://cointelegraph.com/explained/ethereum-as-a-deflationary-asset-explained
+Unable to recognize structure of https://cointelegraph.com/explained/merkle-trees-vs-verkle-trees-explained
+Unable to recognize structure of https://cointelegraph.com/explained/what-are-phygital-nfts-and-how-do-they-work
+Scraper no.4 scanned 4026 articles, unrecognized 48 articles. Dismissed.
+*******************REPORT*******************
+Start time: 06:08:49.946889500
+End time: 13:54:39.164253800
+File [D:\Viet Bao 2023\Code\Blockchain-My-Ass\blockchainnews.json] contains 721 articles.
+File [D:\Viet Bao 2023\Code\Blockchain-My-Ass\coindesk.json] contains 849 articles.
+File [D:\Viet Bao 2023\Code\Blockchain-My-Ass\cointelegraph-testicle.json] contains 16072 articles.
+File [D:\Viet Bao 2023\Code\Blockchain-My-Ass\cointelegraph.json] contains 3431 articles.
+File [D:\Viet Bao 2023\Code\Blockchain-My-Ass\cointelegraph200000.json] contains 12031 articles.
+File [D:\Viet Bao 2023\Code\Blockchain-My-Ass\cryptonews.json] contains 931 articles.
+Total: 34035 articles.
+********************************************
+
+Process finished with exit code 0
