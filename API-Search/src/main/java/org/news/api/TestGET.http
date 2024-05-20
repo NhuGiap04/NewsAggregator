@@ -1,4 +1,8 @@
-GET http://localhost:9696/api/semantic-search?description=Danger%20and%20dance
+GET http://localhost:9696/shutdown
+Accept: application/json
+
+###
+GET http://localhost:9696/semantic-search?description=Danger
 Accept: application/json
 
 ###

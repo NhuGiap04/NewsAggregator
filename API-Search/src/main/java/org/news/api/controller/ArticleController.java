@@ -20,7 +20,7 @@ public class ArticleController {
         this.articleService = articleService;
     }
 
-    @GetMapping("/api/semantic-search")
+    @GetMapping("/semantic-search")
     public Mono<List<Article>> performSemanticSearch(@RequestParam("description") String description) {
         return articleService.getArticleSemanticSearch(description);
     }
