@@ -3,7 +3,7 @@
 cd Aggregator-API-Embed
 python -m venv venv
 if [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "cygwin" ]] || [[ "$OSTYPE" == "win32" ]]; then
-    .venv/Scripts/activate
+    venv/Scripts/activate
 else
     source venv/bin/activate
 fi
