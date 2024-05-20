@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<HBox fx:id="box" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="150.0" prefWidth="1100.0" spacing="15.0" style="-fx-background-radius: 24; -fx-background-color: #FFFFFF;" styleClass="shadow" stylesheets="@css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demoproject.ArticleCardController">
+<HBox fx:id="box" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="150.0" prefWidth="1100.0" spacing="15.0" style="-fx-background-radius: 24; -fx-background-color: #FFFFFF;" styleClass="shadow" stylesheets="@css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aggregator.ArticleCardController">
    <children>
       <ImageView fx:id="articleImage" fitHeight="115.0" fitWidth="145.0" preserveRatio="true">
          <image>

@@ -1,4 +1,4 @@
-package com.example.demoproject;
+package com.example.aggregator;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;

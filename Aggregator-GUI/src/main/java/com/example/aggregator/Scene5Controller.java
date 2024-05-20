@@ -1,4 +1,4 @@
-package com.example.demoproject;
+package com.example.aggregator;
 
 import javafx.fxml.Initializable;
 

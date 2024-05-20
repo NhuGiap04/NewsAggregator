@@ -1,6 +1,5 @@
-package com.example.demoproject;
+package com.example.aggregator;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 

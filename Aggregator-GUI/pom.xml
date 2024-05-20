@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>DemoProject</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <name>DemoProject</name>
+  <artifactId>News-GUI</artifactId>
+  <version>1.0.0</version>
+  <name>News-GUI</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -70,7 +70,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.example.demoproject/com.example.demoproject.AggregatorMainClass</mainClass>
+              <mainClass>com.example.aggregator/com.example.aggregator.AggregatorMainClass</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

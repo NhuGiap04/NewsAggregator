@@ -1,4 +1,4 @@
-package com.example.demoproject;
+package com.example.aggregator;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -84,14 +84,14 @@ public class ArticleCardController implements Initializable {
     public Image generateImage(){
         Random rand = new Random();
         int i = rand.nextInt(NUMBER_OF_THUMBNAILS) + 1;
-        return new Image("com/example/demoproject/images/articlethumbnails/"+i+".png");
+        return new Image("com/example/aggregator/images/articlethumbnails/" +i+".png");
     }
 
     public void setData(Article article) {
         this.article = article;
 
         //Image image = new Image(getClass().getResourceAsStream(article.getImageSrc()));
-        //Image image = new Image("com/example/demoproject/images/article01.png");
+        //Image image = new Image("com/example/aggregator/images/article01.png");
         //articleImage.setImage(image);
         articleImage.setImage(generateImage());
 

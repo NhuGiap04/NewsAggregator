@@ -1,5 +1,4 @@
-package com.example.demoproject;
-import java.io.IOException;
+package com.example.aggregator;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
@@ -15,7 +14,7 @@ public class FilterEngine {
 
     public static List<Article> searchByQuery(String query) {
         if (query == null || query.isEmpty()) {
-            searchResults = Converter.convertFromFile("src/main/resources/com/example/demoproject/testarticles.json");
+            searchResults = Converter.convertFromFile("src/main/resources/com/example/aggregator/testarticles.json");
             return searchResults;
         }
 

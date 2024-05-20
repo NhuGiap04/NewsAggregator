@@ -1,8 +1,7 @@
-package com.example.demoproject;
+package com.example.aggregator;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.net.*;
 
 public class Article {
 
