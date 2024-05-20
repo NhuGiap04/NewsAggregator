@@ -108,7 +108,7 @@
                         <Insets bottom="-30.0" left="1.0" right="1.0" top="-5.0" />
                      </padding>
                   </TextFlow>
-                  <VBox fx:id="articlesLayout" alignment="CENTER" layoutX="29.0" layoutY="387.0" prefHeight="408.0" prefWidth="1216.0" spacing="15.0">
+                  <VBox fx:id="cardLayout" alignment="CENTER" layoutX="29.0" layoutY="387.0" prefHeight="408.0" prefWidth="1216.0" spacing="15.0">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>
