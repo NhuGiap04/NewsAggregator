@@ -7,6 +7,8 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URI;
 
 public class AggregatorMainClass extends Application {
     @Override
@@ -18,6 +20,21 @@ public class AggregatorMainClass extends Application {
         //stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
+
+        // Add shutdown hook
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            int[] ports = {9696, 9999};
+            for (int port : ports) {
+                try {
+                    URI uri = new URI("http://localhost:" + port + "/shutdown");
+                    HttpURLConnection http = (HttpURLConnection) uri.toURL().openConnection();
+                    http.setRequestMethod("GET");
+                    http.getResponseCode();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }));
     }
 
     public static void main(String[] args) {
