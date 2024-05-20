@@ -14,11 +14,7 @@ import java.util.ResourceBundle;
 
 public class Scene3Controller extends Scenes implements Initializable {
     private Article article;
-    
-    @FXML
-    private Button returnButton;
-    @FXML
-    private Button homeButton;
+
 
     @FXML
     private Label title;
@@ -36,9 +32,6 @@ public class Scene3Controller extends Scenes implements Initializable {
     private ImageView bookmarkImage;
     Image unsaved = new Image("com/example/aggregator/images/Scene3Unsaved.png");
     Image saved   = new Image("com/example/aggregator/images/Scene3Saved.png");
-    @FXML
-    private Button bookmarkButton;
-
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
