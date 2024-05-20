@@ -1,7 +1,7 @@
 package com.example.demoproject;
 
-import com.example.demoproject.article.Article;
-import com.example.demoproject.article.ArticleCardController;
+import com.example.demoproject.Article;
+import com.example.demoproject.ArticleCardController;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -27,13 +27,8 @@ public class Scene1Controller extends ArticleDisplay implements Initializable {
         recentArticles = new ArrayList<>(recentArticles());
         displayResult(recentArticles);
     }
-    private List<Article> recentArticles(){
-        List<Article> list = new ArrayList<>();
-        Article article = new Article();
-        list.add(article);
-        list.add(article);
-        list.add(article);
-        return list;
+    private List<Article> recentArticles() {
+        return Converter.convertFromFile("src/main/resources/com/example/demoproject/recent.json");
     }
 
 

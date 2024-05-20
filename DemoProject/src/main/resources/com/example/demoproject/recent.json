@@ -1,0 +1,60 @@
+[
+  {
+    "link": "https://cointelegraph.com/news/vodafone-blockchain-integrate-crypto-wallets-sim-cards",
+    "type": "news article",
+    "title": "Vodafone looks to integrate crypto wallets with sim cards",
+    "summary": "The telecom company is reportedly seeking $1.8 billion in loans amid a plan to raise a total of $2.9 billion in debt",
+    "content": "Vodafone, a United Kingdom-based telecommunications provider, hopes to bring blockchain technology to smartphone users by integrating cryptocurrency wallets with subscriber identity module (SIM) cards. \nThe ambitious move comes amid a company finance plan that reportedly involves Vodafone Idea Ltd., a separate entity operating in India that Vodafone Group carries a 45% stake in, taking on nearly $3 billion in debt including $1.8 billion in loans over the next two years.\nIn a recent interview with Yahoo Finance Future Focus, Vodafone Blockchain Lead David Palmer discussed the company’s plans to integrate blockchain technology into smartphone sim cards:\nPalmer elaborated on the figures he presented, stating that he expected there to be some eight billion smartphones in use by 2030 and predicting a surge in crypto wallets to 5.6 billion in the same time frame — enough to account for nearly 70 percent of all people on Earth.\nDespite the financial wrangling occurring with India-based Vodafone Idea Ltd, which recently sold off $2.2 billion worth of shares ahead of a debt raising plan worth a reported $3 billion, Vodafone Group has had a busy 2024.\nAs Cointelegraph recently reported, the company entered into a 10-year strategic partnership with Microsoft to bring generative artificial intelligence (AI) services to Vodafone’s customers.\nUpon announcing the deal, Microsoft CEO Satya Nadella took the opportunity to hawk the disruptive nature of his company’s AI technologies declaring that the “new generation of AI will unlock massive new opportunities for every organization and every industry around the world.”\nThis isn’t the first time a company’s worked to combine cell phone technology with blockchain hardware. Back in 2019, U.S. startup VaultTel announced its ambitions to create a physical wallet that could be slotted into a smartphone's SIM slot.\nRelated: Vodafone auctions world’s first SMS 'Merry Christmas' as NFT for charity",
+    "date": "2024-05-04",
+    "author": "tristan greene",
+    "tagList": [
+      "blockchain",
+      "cryptocurrencies",
+      "business",
+      "wallet",
+      "sim card",
+      "india",
+      "hardware wallet",
+      "united kingdom",
+      "ai",
+      "mobile wallet",
+      "smartphone",
+      "vodafone"
+    ]
+  },
+  {
+    "link": "https://www.coindesk.com/tech/2024/05/02/protocol-village/",
+    "type": "news article",
+    "title": "Protocol Village: Polyhedra Says Open-Source ZK Proof System 'Expander' 2x Faster Than Alternatives",
+    "summary": "The latest in blockchain tech upgrades, funding announcements and deals. For the period of May 2-8.",
+    "content": "May 2: Polyhedra Network launched an open-source ZK proof system, Expander, \"that can generate proofs nearly 2x faster than alternatives while enhancing security and efficiency of ZK proof process,\" according to the team: \"Expander represents a new era in scaling ZK-proof tech and combines classical interactive proofs, establishes truth of a process and that it can be executed, with advanced polynomial commitment schemes that ensure proof is accurate and can't be changed once created. It follows Polyhedra’s recent partnership with Google Cloud where they are collaborating on Polyhedra’s ZK tech to all Google Cloud services via Proof Cloud.\" According to a blog post, \"Expander can prove 4,500 Keccak-f permutations per second on an Apple M3 Max Machine.\" Keccak-256 is a \"cryptographic hash function standardized by NIST in the secure hash algorithm 3 (SHA-3) and is the hash function used by the Ethereum blockchain,\" according to the post. The new proof system builds on Polyhedra's Libra paper, lead-authored by Polyhedra co-founder and CTO Tiancheng Xie.\nEclipse Works With Neon EVM Team to 'Break the EVM-SVM Compatibility Barrier'\nMay 2: Eclipse, an Ethereum layer-2 network powered by Solana Virtual Machine (SVM), said it is the \"first to break the EVM-SVM compatibility barrier\" with the deployment of Neon Stack, developed by the core Neon EVM team, according to a press release. Neon Stack is \"a standardized development stack that makes it easy for SVM-based blockchain networks to gain EVM compatibility for smart contract developers, which Eclipse will utilize on its SVM L2.\"\nLayer-2 BOB (Build on Bitcoin) Launches Mainnet\nMay 2: BOB (Build on Bitcoin), a hybrid layer-2 solution merging Bitcoin and Ethereum capabilities, has launched its mainnet, according to the team: \"Supported by leading crypto investors such as UTXO and CMS Holdings, BOB is advancing Bitcoin's relevance in the DeFi space by making Bitcoin assets like Ordinals, Runes and BRC20s accessible to ETH and other Web3 users. With the UX for Bitcoin DeFi still very limited, BOB aims to be the best place to start experimenting with Bitcoin L2. Notable projects deploying on BOB include Sovryn, Velodrome and Layerbank.\"\nThe Graph, Blockchain Indexing Project, Announces $1.2M 'Sunrise Upgrade Program'\nMay 2: The Graph Foundation, stewarding core devs of The Graph Network, announced its Sunrise Upgrade Program, beginning May 2. The community-driven program will aid in The Graph’s pursuit to democratize data via a variety of “missions” that reward participants completing on chain and off chain activities. The Graph Foundation has committed up to 4M GRT (approx. $1.2M USD as of April 29), to recognize and reward participants for their contributions by completing missions in the program. (GRT)\nNibiru Chain Appoints Two to Lead Asia Build-Out\nMay 2: Nibiru Chain, a secure smart contract platform that simultaneously addresses decentralization, security and scalability, announced its expansion into the Asia region, appointing Yura Nam, an ex-head of StarkNet Asia, to lead Asia growth, and Nicholas Lo, a former APAC Growth Manager at Bored Ape Yacht Club developer Yuga Labs, to oversee Asia business development.\nResonance, Blockchain Smart-Contract Auditor, Raises $1.5M from Arca, Fabric, Blockchain Founders Fund\nMay 2: Resonance, a provider of blockchain and smart-contract audits, announced a pre-seed fundraising of $1.5 million from Arca, Fabric and Blockchain Founders Fund, according to the team: \"The company’s initial raise will fuel a rapid expansion that has proceeded at an exponential rate since launching in March 2023.\" Resonance launched V1 in March after \"a highly successful beta phase that resulted in engagements with major Web2 and Web3 projects,\" according to the project.\nLukso, EVM-Compatible Blockchain for Creative Economy, Launches $1M Grant Program\nMay 2: Lukso, an EVM-compatible blockchain designed for the new creative economy, announces the launch of a new grant program designed to cultivate a vibrant ecosystem of user-centric, social and creative projects built on Lukso. The first application wave of the Lukso Grants Program is backed by $1 million, which will be followed by subsequent quarterly application waves.\nUntangled Launches Private Credit Pool on Celo Underpinned by Institutional Grade Assets\nMay 2: Untangled Finance, a tokenized real-world asset (RWA) platform backed by Fasanara Capital, opened its first private credit pool on the Celo (CELO) network on Thursday with French fintech lender Karmen. The pool, structured under Luxembourg's securitization regulations with a debt ceiling of $6 million at the start, lets accredited investors deposit the USDC stablecoin and will provide capital to Karmen, which specializes in providing instantaneous loans and working capital to small and medium-sized digital enterprises in France, according to a press release. Institutional asset manager Fasanara Capital and The Credit Collective, a Celo community-led ecosystem development organization, were early investors in the facility.\nProtocol Village is a regular feature of The Protocol, our weekly newsletter exploring the tech behind crypto, one block at a time. Sign up here to get it in your inbox every Wednesday. Project teams can submit updates here. For previous versions of Protocol Village, please go here. Also please check out our weekly The Protocol podcast.",
+    "date": "2024-05-03",
+    "author": "bradley keoun",
+    "tagList": [
+      "the protocol",
+      "blockchain",
+      "ethereum",
+      "bitcoin",
+      "tech",
+      "blockchain technology",
+      "evm",
+      "protocol village"
+    ]
+  },
+  {
+    "link": "https://cointelegraph.com/news/bitcoin-ethereum-options-expiry-volatility",
+    "type": "news article",
+    "title": "Bitcoin and Ether options worth $2.4B set to expire May 3, max BTC pain at $61K",
+    "summary": "Deribit exchange data reveals that the put-to-call ratio for Bitcoin options contracts is currently at 0.50, with a maximum pain point of $61,000.",
+    "content": "Bitcoin and Ether options contracts worth a combined $2.4 billion are set to expire on May 3, which could lead to increased market volatility.\nA Bitcoin options contract is a derivative contract that allows investors to speculate on Bitcoin price movements without owning Bitcoin itself.\nThere are two types: call and put options. Call options give investors the right to buy a cryptocurrency at a specific price before a certain date. Put options, on the other hand, allow investors to sell a cryptocurrency at a particular price before the expiry date.\nInvestors often use the put/call ratio as a metric to assess the general state of the market. If traders are purchasing more puts than calls, it is considered a bearish sign, and if they are purchasing more calls than puts, then the market sentiment is considered bullish.\nA put-to-call ratio below 0.7 is considered bullish, while a ratio of more than 1 is regarded as a bearish indicator.\nRelated: US lawmakers urge SEC to approve Bitcoin options trading\nOn May 3, a total of 23,367 Bitcoin contracts worth $1.39 billion are set to expire. Data from the Deribit exchange reveal that the put-to-call ratio for Bitcoin options contracts is currently at 0.5, with a maximum pain point of $61,000. The maximum pain point refers to the price at which the asset will cause financial losses to the greatest number of holders.\nSimilarly, a total of 334,248 Ether contracts with a notional value of $1 billion are expected to expire on Friday as well. These expiring contracts have a put-to-call ratio of 0.37 and a maximum pain point of $3,000.\nThe expiry of options contracts has historically been followed by short-term price volatility in the spot crypto market. Bitcoin and Ether have experienced bearish pressure in the past couple of weeks.\nThe BTC price fell below $60,000, marking an almost 20% weekly correction post-halving. The Ether price also fell below $2,900. The crypto market often bounces back from the options-led volatility within days of expiry.\nMagazine: Hong Kong Bitcoin ETF launch in ‘top 20%’, STRK scam suspect busted: Asia Express",
+    "date": "2024-05-03",
+    "author": "prashant jha",
+    "tagList": [
+      "bitcoin",
+      "blockchain",
+      "cryptocurrencies",
+      "bitcoin options",
+      "ethereum options"
+    ]
+  }
+]
