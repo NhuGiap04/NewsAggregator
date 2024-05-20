@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd API-Embed
+cd Aggregator-API-Embed
 python app.py &
 
-cd ../API-Search
+cd ../Aggregator-API-Search
 mvn spring-boot:run &
 
 cd ../Aggregator-GUI

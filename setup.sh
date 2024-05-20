@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd API-Embed
+cd Aggregator-API-Embed
 python -m venv venv
 if [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "cygwin" ]] || [[ "$OSTYPE" == "win32" ]]; then
     .venv/Scripts/activate
@@ -9,8 +9,7 @@ else
 fi
 pip install --no-cache-dir -r requirements.txt
 
-
-cd ../API-Search
+cd ../Aggregator-API-Search
 mvn clean install
 
 cd ../Aggregator-GUI
