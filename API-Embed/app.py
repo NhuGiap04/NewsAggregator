@@ -1,3 +1,5 @@
+import os
+import signal
 import sys
 
 from flask import Flask, request, jsonify
@@ -19,6 +21,11 @@ def embedding_post():
     text = data['text']
     embedding = generate_embedding(text)
     return jsonify(embedding[0])
+
+
+@app.route('/shutdown', methods=['GET'])
+def shutdown():
+    return os.kill(os.getpid(), signal.SIGINT)
 
 
 if __name__ == '__main__':
