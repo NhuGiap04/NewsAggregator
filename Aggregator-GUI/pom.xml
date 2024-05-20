@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>News-GUI</artifactId>
+  <artifactId>Aggregator-GUI</artifactId>
   <version>1.0.0</version>
-  <name>News-GUI</name>
+  <name>Aggregator-GUI</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
