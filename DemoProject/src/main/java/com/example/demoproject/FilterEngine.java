@@ -13,14 +13,14 @@ public class FilterEngine {
     static List<String> sources;
     static List<Article> searchResults;
 
-    public static List<Article> searchByQuery(String query) throws IOException {
+    public static List<Article> searchByQuery(String query) {
         if (query == null || query.isEmpty()) {
             searchResults = Converter.convertFromFile("src/main/resources/com/example/demoproject/testarticles.json");
             return searchResults;
         }
 
         // Define your base URL
-        String baseUrl = "http://localhost:9696/api/semantic-search?description=";
+        String baseUrl = "http://localhost:9696/semantic-search?description=";
 
         // Encode your query string
         String encodedQuery = URLEncoder.encode(query, StandardCharsets.UTF_8);

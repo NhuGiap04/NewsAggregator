@@ -65,11 +65,7 @@ public class Scene2Controller extends ArticleDisplay implements Initializable {
     
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        try {
-            FilterEngine.searchByQuery(query);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        FilterEngine.searchByQuery(query);
 
         displayResult(FilterEngine.searchResults);
         filterWrapPane.setVisible(false);
