@@ -78,10 +78,6 @@ public class Scene2Controller extends ArticleDisplay implements Initializable {
         displayResult(FilterEngine.searchByQuery(query));
     }
 
-    public void resetResult() {
-        cardLayout.getChildren().clear();
-    }
-
     public void orderSelect(ActionEvent event) throws IOException {
         if (FilterEngine.mostRecentSelected) {
             postOrder.setText("Most Relevant");
