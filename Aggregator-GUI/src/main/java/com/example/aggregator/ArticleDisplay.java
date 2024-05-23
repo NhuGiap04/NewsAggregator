@@ -26,4 +26,8 @@ public class ArticleDisplay extends Scenes {
             e.printStackTrace();
         }
     }
+    
+    public void resetResult() {
+        cardLayout.getChildren().clear();
+    }
 }
